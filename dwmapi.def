@@ -1,0 +1,6 @@
+LIBRARY dwmapi.dll
+EXPORTS
+  DwmSetWindowAttribute=___DwmSetWindowAttribute
+  DwmIsCompositionEnabled=___DwmIsCompositionEnabled
+  DwmEnableBlurBehindWindow=___DwmEnableBlurBehindWindow
+  DwmExtendFrameIntoClientArea=___orig_DwmExtendFrameIntoClientArea
